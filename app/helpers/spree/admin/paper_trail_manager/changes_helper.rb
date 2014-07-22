@@ -5,10 +5,13 @@ module Spree
         # Return HTML representing the +object+, which is either its text or a stylized "nil".
         def text_or_nil(object)
           if object.nil?
-            return content_tag("em", "nil")
+            return content_tag("em", "nil")          
           else
-            return h(object)
+            return truncate object.html_safe, length: 200
           end
+          
+          rescue => e
+            return h(object)          
         end
 
         # Return an hash of changes for the given +Version+ record. The resulting

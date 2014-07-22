@@ -1,13 +1,13 @@
+<% content_for :page_title do %>
 <h1>Changes</h1>
-
-<p class='changes_feed'><%= link_to 'Changes feed', spree.admin_changes_path(:format => 'atom') %></p>
+<% end %>
 
 <p>
   Show:
   <%= ([link_to('All', spree.admin_changes_path)] + change_item_types.map { |type| link_to(type.pluralize, spree.admin_changes_path(:type => type)) }).join(' | ').html_safe %>
 </p>
 
-<table class='changes_table'>
+<table class='index changes_table'>
   <tfoot>
     <tr>
       <td colspan='2'>
@@ -32,3 +32,4 @@
   </tbody>
 </table>
 
+<p class='changes_feed'><%= link_to 'Changes feed', spree.admin_changes_path(:format => 'atom') %></p>
