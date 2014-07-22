@@ -5,3 +5,4 @@ pkg/
 rails_test/bundler_cache/
 rails_test/rails-*/Gemfile
 rails_test/rails-*/Gemfile.lock
+.DS_Store
