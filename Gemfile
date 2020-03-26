@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '~> 4.0'
+gem 'rails'
 gem 'paper_trail', '~> 3.0'
 #gem 'will_paginate', '~> 3.0.pre2'
 
