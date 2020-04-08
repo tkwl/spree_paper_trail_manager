@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<sqlite3-ruby>, [">= 0"])
     else
       s.add_dependency(%q<rake>, [">= 0"])
-      s.add_dependency(%q<rails>, ["~> 4.0"])
+      s.add_dependency(%q<rails>, ["~> 5.0"])
       s.add_dependency(%q<paper_trail>, ["~> 3.0"])
       #s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
       s.add_dependency(%q<rdoc>, [">= 0"])
@@ -62,7 +62,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rake>, [">= 0"])
-    s.add_dependency(%q<rails>, ["~> 4.0"])
+    s.add_dependency(%q<rails>, ["~> 5.0"])
     s.add_dependency(%q<paper_trail>, ["~> 3.0"])
     #s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
     s.add_dependency(%q<rdoc>, [">= 0"])
