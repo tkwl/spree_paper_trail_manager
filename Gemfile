@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rake'
 gem 'rails'
-gem 'paper_trail', '~> 3.0'
+gem 'paper_trail', '~> 4.0'
 #gem 'will_paginate', '~> 3.0.pre2'
 
 group :development do
