@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rake>, [">= 0"])
-      s.add_runtime_dependency(%q<rails>, ["~> 4.0"])
+      s.add_runtime_dependency(%q<rails>, ["~> 5.0"])
       s.add_runtime_dependency(%q<paper_trail>, ["~> 3.0"])
       #s.add_runtime_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
       s.add_development_dependency(%q<rdoc>, [">= 0"])
